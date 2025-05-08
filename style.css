@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #05377d;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(190, 28, 28);
+    text-decoration: none;
+    margin: 10px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.projects img {
+    width: 30%;
+    height: auto;
+    border: 2px solid #db4343;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+}
