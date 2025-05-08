@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>My Portfolio - Contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="profile.html">Profile/Skills</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact Me</a>
-    </nav>
-    <div class="container">
-        <p>You can reach me via email: <a href="folawemi.jaseem@gmail.com">folawemi.jaseem@gmail.com</a></p>
-        <p>Or connect with me on GitHub: <a href="https://github.com/Jaseem24">github.com/Jaseem24</a></p>
-        <h1>Contact Me</h1>
-        <form>
-            <input type="text" placeholder="Oluwafolawemi Jaseem Adeyemi" required>
-            <input type="email" placeholder="folawemi.jaseem@gmail.com" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </div>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="profile.html">Profile/Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact Me</a>
+</nav>
+
+<div class="container">
+    <h1>Contact Me</h1>
+    <p>You can reach me via email: <a href="mailto:folawemi.jaseem@gmail.com">folawemi.jaseem@gmail.com</a></p>
+    <p>Or connect with me on GitHub: <a href="https://github.com/Jaseem24" target="_blank">github.com/Jaseem24</a></p>
+
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Your message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+
 </body>
 </html>
